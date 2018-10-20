@@ -1,0 +1,1425 @@
+digraph {
+
+    rankdir=LR
+    overlap=false
+    //splines=lines
+    splines=ortho // square edge corners
+    graph [fontname=arial fontsize=12 pad="0" ranksep="0.0" nodesep="0.0"]
+    node  [fontname=arial fontsize=12]
+    edge  [fontname=arial fontsize=12 arrowsize=0.75 pad=0]
+
+    label="Tech Sprint Evolution\nQ3 2016-Q1 2018"
+    labelloc=t
+    fontsize=16
+
+    tech_sprint_36 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-36.png" scale="true"/></TD></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_37 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-37.png" scale="true"/></TD></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_38 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-38.png" scale="true"/></TD></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+starting point.
+<br/>2-year-old small tech org that is growing.
+<br/>scrum board contains multiple teams, a legacy from early days.
+<br/>scrum master is a volunteer who runs review/retro.
+<br/>unpointed stories, stories missing, backlog is a mess. no burn.
+<br/>lots to do!
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_39 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-39.png" scale="true"/></TD></TR>
+        <TR><TD height="100" valign="top"><font point-size="10">big drop: convince scrum master to split out other<br/>
+team's work that engineering had no control over<br/>
+(tried to do in-between sprints but was delayed, oh well)
+</font></TD></TR>
+    </TABLE>>];
+
+    analytics_sprint_38 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="analytics-sprint/sprint-38.png" scale="true"/></TD></TR>
+        <TR><TD height="100" valign="top"><font point-size="10">other team did not actually do scrum.
+<br/>this stuff just sits.</font></TD></TR>
+    </TABLE>>];
+
+    tech_sprint_40 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-40.png" scale="true"/></TD></TR>
+        <TR><td height="100" valign="top"><font point-size="10">flatline, but stories engineering can complete.
+        <br/>start lobbying engineers to estimate stories so our work counts!</font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_41 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-41.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">flatline. more estimating, more lobbying.</font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_42 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-42.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">flatline. more estimating, more lobbying.</font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_43 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-43.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+flatline.
+<br/>all stories now point-estimated before addition to sprint.
+<br/>start: more in-depth story discussions to help estimation.
+<br/>start: lobbying that passing QA integral part of dev process.</font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_44 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-44.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+first sprint with me as scrum master.
+<br/>one week up, one week down. ended up behind.
+<br/>sprint started before one team does planning.
+<br/>biggest problem: planning is ~1 week behind.
+<br/>solution: delay sprint start as long as necessary to complete planning.
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_45 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-45.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+"look at that burndown"
+<br/>first sprint to vaguely resemble a burndown.
+<br/>sprint start held until planning done.
+<br/>biggest problem: overcommitment by &gt; 50%
+<br/>solution: commit to fewer points
+<br/>Thanksgiving holiday delayed close -- plan better.
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_46 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-46.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+biggest problem: overcommitment.
+<br/>bottlenecks: QA
+<br/>lobby engineers to evaluate stories more carefully during planning.
+<br/>lobby that adding stories means removing others.
+        </font></td></TR>
+    </TABLE>>];
+
+    tech_sprint_47 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="350" height="200" fixedsize="true"><IMG SRC="tech-sprint/sprint-47.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+biggest problem: overcommitment.
+<br/>bottlenecks: code review, QA
+<br/>teams chewed out during anemic sprint review
+<br/>start: no incomplete work may be demonstrated
+<br/>problem: board too big (15 members). solution: split the board.
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_48 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-48.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+almost made it. one big story got stuck
+<br/>external QA incentivized better stories
+<br/>start: planning poker
+<br/>start: working in a larger team
+<br/>start: letting team decide story assignment
+<br/>start: basing commitment on established velocity
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_49 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-49.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+almost made it, 2 stories short<br/>
+QA rushed at the end -- blocked for 6 days(!) by deploy bug<br/>
+PM justifiably complained about insufficient QA<br/>
+start: APP director starting/closing sprint<br/>
+start: 'state of the sprint' check-ins<br/>
+start: 'In QA' column and pass/fail QA JIRA workflow
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_50 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-50.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+almost made it. 1 big story got stuck.<br/>
+big story started late, 2 engineers couldn't wrangle in time<br/>
+TODO: start big stories sooner<br/>
+QA rushed at the end again<br/>
+TODO: feed QA at a steadier rate<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_51 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-51.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+behind until 2 days left<br/>
+4x big 8-point stories<br/>
+QA slow, 2 teams fighting over QA resources<br/>
+unplanned work prevented 8-pointer from being worked on<br/>
+problem was seen a week out, was not fixed<br/>
+new team member training took time<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_52 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-52.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+rollercoaster due to unplanned work<br/>
+fighting over QA resources early on<br/>
+blockage due to tech issues w/ tests and deployments<br/>
+unplanned work/overloaded director prevented burndown<br/>
+adjust: commit to fewer points
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_53 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-53.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+first story to make it to QA sat in code review for 2 days<br/>
+APP director carrying most story points<br/>
+new engineer starting to carry a real load<br/>
+heaviest QA over 3 days, an improvement, more to go...<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_54 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-54.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+limited alpha release of 3-month-long project<br/>
+2 team members out for a week for spring break<br/>
+under-commit due to assumed support work<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_55 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-55.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burned up until last ~4 hours<br/>
+ludicrous, untrustworthy plunge at the end.<br/>
+build errors night before delayed QA<br/>
+significant unplanned work halfway thru<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_56 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-56.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+overcommitted.<br/>
+assumed new engineers would increase velocity, they did not.<br/>
+upside: little upward movement<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_57 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-57.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+good first week -- actually caught up<br/>
+what happened in second week?<br/>
+blocked on Code Review<br/>
+not enough access to QA, why?!<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_58 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-58.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown!<br/>
+tech lead helped alleviate Code Review bottleneck<br/>
+still pushed it down to the wire on some, do better<br/>
+team resilient to director's PTO<br/>
+new problem: what to do when engineers finish sprint work?<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_59 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-59.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+fell far short. last-minute heroics didn't work this time.<br/>
+overcommitted over a holiday<br/>
+tech lead on PTO, code review bottleneck returned<br/>
+lots of failures in QA<br/>
+lots of merge conflicts<br/>
+inadequate blocker discussions during standups<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_60 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-60.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown!<br/>
+bottleneck: Code Review<br/>
+start: distribute Code Review work amongst team members<br/>
+TODO: prioritize pull requests above almost all else<br/>
+impediment: slow builds<br/>
+start: fast unit tests (40 mins -&gt; 3 min)<br/>
+start: 10am standups (from 4pm)<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_61 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-61.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown!<br/>
+fewer large tickets. fed QA steadily, QA caught more bugs<br/>
+code review was fast &amp; responsive<br/>
+builds getting faster, but still not fast enough<br/>
+plan better to reduce blocking<br/>
+some 'definition of done' problems<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_62 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-62.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+1 QA engineer on PTO grinds QA to a halt in week 1<br/>
+alternative QA eventually sorted out<br/>
+director PTO = no burn<br/>
+tech lead focused on REFMGMT, not APP<br/>
+13 point story unsurprisingly not done<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_63 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-63.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+mostly flatline until last day<br/>
+director PTO = no burn<br/>
+QA PTO = no burn<br/>
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_64 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-64.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+bottleneck: Code Review<br/>
+bottleneck: QA<br/>
+third sprint in a row that failed in the same way<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_65 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-65.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+director: "hitting zero should be no problem"<br/>
+"burndown is weird since we under-committed"<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_66 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-66.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+horrible sprint, possibly the year's worst<br/>
+process problems, individual engineer problems<br/>
+underestimated very complex requirements<br/>
+surprise, huge story didn't get done<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_67 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-67.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+missed by one story, slow engineer with 2 x 8 points<br/>
+better than recent sprints, not good enough<br/>
+ongoing Product/Engineering problems worsen<br/>
+predictable QA rush at the end<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_68 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-68.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+bad<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_69 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-69.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+winding down 2 dying projects...<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_70 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-70.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2 stories short<br/>
+fed QA pretty well<br/>
+one engineer continues pattern of under-delivery<br/>
+split into per-product queues...<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown<br/>
+mostly 1 engineer<br/>
+burned down due to being able to focus over the holidays<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+APP team crushing it as usual.<br/>
+late burn due to QA availability<br/>
+team felt PM spent too much QA on regression testing,<br/>
+leaving engineers hanging<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_75 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2 projects and some defects still tracked<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    app_sprint_76 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="app-sprint/sprint-76.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2 projects and some defects still tracked<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+
+
+
+    cm_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="cm-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    cm_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="cm-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+one engineer leaving, performs strongly on last sprint<br/>
+engineer left is chronic under-performer<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    cm_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="cm-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+CM actually improving over time, great sprint<br/>
+delivered major feature, stakeholder loved demo<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    cm_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="cm-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+halted<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+
+
+    huddle_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="huddle-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+overcommitment re: holidays + PTO + QA<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    huddle_sprint_72 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="huddle-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    huddle_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="huddle-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    huddle_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="huddle-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+better concentration<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+
+    wrklst_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="wrklst-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    wrklst_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="wrklst-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    wrklst_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="wrklst-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+unplanned work foils burndown<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+    wrklst_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="wrklst-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+last one<br/>
+        </font></td></TR>
+    </TABLE>>];
+
+
+
+    arch_sprint_48 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-48.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>burndown!
+<br/>sprint planning via hipchat
+<br/>unplanned work threatened burndown
+<br/>several moderately-heroic efforts
+<br/>unclear if repeatable</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_49 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-49.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+QA misunderstanding + overcommitment<br/>
+slow QA not started ASAP on 1 project due to 1 engineer not<br/>
+understanding it was his responsibility to make sure it did<br/>
+adjust: ensure engineers speak up about QA early and often<br/>
+overcommitment caused by large stories by 1 engineer<br/>
+followed by realization story had been under-estimated<br/>
+adjust: more realistic commitments, discuss more beforehand<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_50 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-50.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+flatline w/ some late burn. ~15 pts inherited rollover<br/>
+2 separate major QA bottlenecks prevented burndown<br/>
+1 alleviated in the final 24 hrs, one not -- more rollover<br/>
+blocked project also changed requirements, it's a mess<br/>
+adjust: switch engineers from bottlenecked project<br/>
+until they sort their own QA out<br/>
+argh: missed 10 points by ~12 hours
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_51 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-51.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+good burn halfway through, then blocked on QA delays<br/>
+same blockers as last time, impact reduced by story selection<br/>
+good late burn -- 1 blocker cleared at last minute<br/>
+some engineers i think _plan_ to burn down just-in-time, do better<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_52 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-52.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+conscious decision to start before all planning done<br/>
+pushed harder at the beginning to establish steady burn<br/>
+planning churned throughout, rolled w/ it as best we could<br/>
+argh: CCLF data files dropped late, blocking related tasks<br/>
+1 story missed QA by 12 hours, should've started it sooner<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_53 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-53.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+sprint blown up on day 5, never recovered :(<br/>
+had such a nice burndown for 4 days...<br/>
+2 high-priority epics being planned as we go...<br/>
+assign resources, timebox stories and under-commit to compensate<br/>
+1 high-priority epic was less effort than expected...<br/>
+the other was much more... shuffle engineers around, hand stuff off...<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_54 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-54.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2 members' work tied in a knot, didn't budge until last minute<br/>
+2 others on longer-term projects not-well split<br/>
+1 other out sick twice<br/>
+1 other support APP team rollout<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_55 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-55.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+3 weeks, retreat in the middle<br/>
+rushed the last day<br/>
+start: closing sprint in time for review so we can use JIRA reports<br/>
+argh: missed 5 points by ~15 minutes<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_56 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-56.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+Worst sprint in a while.<br/>
+Underpointed stories; overcommitted.<br/>
+TODO: have proper stakeholder meetings w/ APP team.<br/>
+One story became an incompletable nightmare.<br/>
+One engineer used tech debt story as an umbrella to hide<br/>
+a bunch of work they wanted to do.<br/>
+Another engineer significantly overcommitted.<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_57 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-57.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+worst sprint in months<br/>
+tons of unplanned work<br/>
+many separate errors and support incidents<br/>
+one engineer on one tough story, another story blocked<br/>
+blockages, some alleviated<br/>
+TODO: better monitoring and log accessibility on prod systems<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_58 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-58.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+best steady burn yet<br/>
+almost made it, 2 stories got stuck<br/>
+emphasized deploy/Done ASAP<br/>
+one engineer smartly refactored his own workflow<br/>
+2 engineers paired on tough story, almost wrangled it in time<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_59 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-59.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+almost made it, one story short.<br/>
+problematic project + engineer PTO = big ticket not finished<br/>
+director PTO = no burn<br/>
+slow QA cycles<br/>
+TODO: do QA sooner<br/>
+TODO: reduce cycle time<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_60 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-60.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+almost made it, one story got stuck<br/>
+working around bug uncovered second bug :(<br/>
+impediment: QA on mid-sprint PTO<br/>
+impediment: 4/6 team members on PTO of some kind<br/>
+impediment: slow builds<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_61 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-61.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown!<br/>
+more instrumentation/visualizations helping troubleshooting<br/>
+some things getting easier<br/>
+builds still too slow<br/>
+large story QA not adequately done<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_62 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-62.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown<br/>
+good steady burn<br/>
+engineers paired up to complete stories on last day<br/>
+backlog work done by almost everyone<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_63 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-63.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+director PTO whole sprint<br/>
+"lots of unplanned work"<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_64 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-64.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+burndown<br/>
+bottleneck: In Progress<br/>
+many stories twisted together in slow-moving project<br/>
+pair up engineers as they finish, worked well<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_65 [margin=0 shape=box style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-65.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+engineers worked together and helped each other<br/>
+used opportunity to pay back tech debt<br/>
+3 x 13 stories, lots of uncertainty, but got it Done<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_66 [margin=0 shape=box style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-66.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+great steady burn, fell just short<br/>
+planning delayed, 1 engineer sick<br/>
+one project's poor communication, integration failed<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_67 [margin=0 shape=box style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-67.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+missed by one story<br/>
+disappointed<br/>
+engineer went overboard on small story at last minute<br/>
+log jam in job running system prevent early burn<br/>
+tech debt resurfaces 3 times... forced to pay back<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_68 [margin=0 shape=box style="filled,dashed" fillcolor=white color="#0BB80B" label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-68.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+nice finish<br/>
+1 incomplete story due to director not pushing back...<br/>
+on questionable approach<br/>
+every sprint more reasons to trust Product less<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_69 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-69.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+missed<br/>
+replication meltdown again, blocked work<br/>
+3 week sprint -- retreat + Thanksgiving<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_70 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-70.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+3 stories short, one team overcommitted and under-delivered<br/>
+split monolithic sprint review into 2 smaller ones, better!<br/>
+hit rock-bottom on problematic system...<br/>
+biting the bullet and ripping it out<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2 projects significant rollover<br/>
+to allow more planning time, split sprints by product<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    arch_sprint_74 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    arch_sprint_75 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#cccccc", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    arch_sprint_76 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#cccccc", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="arch-sprint/sprint-76.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+
+    adt_sprint_73 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="adt-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+engineers balked on 1 story's questionable requirements<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    adt_sprint_75 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="adt-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+last one<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    awv_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="awv-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    awv_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="awv-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+major bug found, blocks related work<br/>
+integration story slow w/ multiple failures and slow cycles<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    awv_sprint_74 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="awv-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    awv_sprint_75 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="awv-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+wrap up 6-month unilateral engineering hero effort<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    clmattr_sprint_72 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="clmattr-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    clmattr_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="clmattr-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+multiple big stories, slow process, slow QA, slow feedback<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    clmattr_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="clmattr-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+eng tried to cheat on QA<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    clmattr_sprint_75 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="clmattr-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+2/3 engs great, 1 project to QA too late<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    clmattr_sprint_76 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="clmattr-sprint/sprint-76.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    dw_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="dw-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    dw_sprint_73 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="dw-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+spent one week planning<br/>
+planning prevented engineers from working on the wrong thing<br/>
+but still took too long. stakeholders not available enough<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    dw_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="dw-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+last one<br/>
+Analytics not using what they're asking for<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    eol_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="eol-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+complained: start-then-stop strategy will produce worse results<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    hcc_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="hcc-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+good progress on hard changes<br/>
+ongoing changes to how PM wants it released, eventually ignore<br/>
+release process technically complex/challenging<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    hcc_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="hcc-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+uncertainty re: deployment handled with padding<br/>
+significant speed up is very promising<br/>
+lots of tech debt paid back<br/>
+engineers embrace their role as PMs, and run with it<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    hcc_sprint_74 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="hcc-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+last one. tracking per-project in kanban<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    hcc_hs_kanban [margin=0 shape=box, style=filled, fillcolor=white, color="gray", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"> </TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+hcc_hs_kanban<br/>
+</font></td></TR>
+    </TABLE>>];
+    { rank=same hcc_hs_kanban app_sprint_75 }
+
+    hcc_hsud_kanban [margin=0 shape=box, style=filled, fillcolor=white, color="gray", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"> </TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+hcc_hsud_kanban<br/>
+</font></td></TR>
+    </TABLE>>];
+    { rank=same hcc_hsud_kanban app_sprint_75 }
+
+
+
+    ptprac_sprint_74 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="ptprac-sprint/sprint-74.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+new engineer is great, learning fast<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    ptprac_sprint_75 [margin=0 shape=box, style="filled,dashed", fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="ptprac-sprint/sprint-75.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+going strong<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    ptprac_sprint_76 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="ptprac-sprint/sprint-76.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    refmgmt_start [margin=0 shape=box, style=invis, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="1px.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+hypothetical<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_62 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-62.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+first ever sprint -- set a velocity baseline<br/>
+dedicated QA by PM<br/>
+early dev can't wait to transition off entirely<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_63 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-63.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+worse than flatline<br/>
+director PTO = no burn<br/>
+lead pulled off, lost focus<br/>
+unclear ownership of burndown<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_64 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-64.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+bottleneck: QA<br/>
+enough nagging halfway thru finally kickstarted QA<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_65 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-65.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+Engineers: "getting stories _into_ QA &asymp; Done" :(<br/>
+PMs repeatedly nagged to kickstart QA<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_66 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-66.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+good burn, fell short<br/>
+regular QA now<br/>
+oops, took story out of sprint because wouldn't be finished, put it back<br/>
+still searching got true velocity<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_67 [margin=0 shape=box, style="filled,dashed" fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-67.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+missed by one 1 point story<br/>
+left blocker until last minute, had to be reminded to do it &gt;:(<br/>
+convinced lead to work backlog to give a chance to burn to zero...<br/>
+retro all backpatting, a complete lack of critical thought<br/>
+during planning it is mentioned they cannot use an...<br/>
+additional engineer as the project is running out of work<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_68 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-68.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+belated QA<br/>
+project shitcanned? no more sprints<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+    refmgmt_sprint_71 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-71.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+...back from the dead?<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_72 [margin=0 shape=box, style=filled, fillcolor=white, color="#0BB80B", label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-72.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+we decide to keep someone on it anyways,<br/>even though it is referred to as 'paused' in meetings<br/>
+</font></td></TR>
+    </TABLE>>];
+
+    refmgmt_sprint_73 [margin=0 shape=box, style=filled, fillcolor=white, color=white, label=<<TABLE border="0" cellborder="0">
+        <TR><TD width="300" height="200" fixedsize="true"><IMG SRC="refmgmt-sprint/sprint-73.png" scale="true"/></TD><td><font point-size="10"> </font></td></TR>
+        <TR><td height="100" valign="top"><font point-size="10">
+...yup, really dead.<br/>
+product continues to change their mind as<br/>
+high-profile priority project adoption falters.<br/>
+complained: production product w/ no support...<br/>
+will produce worse results<br/>
+</font></td></TR>
+    </TABLE>>];
+
+
+
+    subgraph cluster_tech_app_sprint {
+        // APP is Tech Sprint renamed, they should be aligned...
+        style=invis
+        rankdir=LR
+        tech_sprint_36
+        tech_sprint_37
+        tech_sprint_38
+        tech_sprint_39
+        tech_sprint_40
+        tech_sprint_41
+        tech_sprint_42
+        tech_sprint_43
+        tech_sprint_44
+        tech_sprint_45
+        tech_sprint_46
+        tech_sprint_47
+    }
+
+    subgraph cluster_app_straighter_than_refmgmt_48 {
+        style=invis
+        rankdir=LR
+        app_sprint_48
+        app_sprint_49
+        app_sprint_50
+        app_sprint_51
+        app_sprint_52
+        app_sprint_53
+        app_sprint_54
+        app_sprint_55
+        app_sprint_56
+        app_sprint_57
+        app_sprint_58
+        app_sprint_59
+        app_sprint_60
+        app_sprint_61
+    }
+
+    subgraph cluster_app_straighter_than_refmgmt_61 {
+        style=invis
+        rankdir=LR
+        app_sprint_62
+        app_sprint_63
+        app_sprint_64
+        app_sprint_65
+        app_sprint_66
+        app_sprint_67
+        app_sprint_68
+        app_sprint_69
+    }
+
+    subgraph cluster_arch_sprint_70 {
+        style=invis
+        rankdir=LR
+        app_sprint_70
+        app_sprint_71
+        app_sprint_72
+        app_sprint_73
+        app_sprint_74
+        app_sprint_75
+    }
+
+    subgraph cluster_arch_sprint {
+        style=invis
+        rankdir=LR
+        arch_sprint_48
+        arch_sprint_49
+        arch_sprint_50
+        arch_sprint_51
+        arch_sprint_52
+        arch_sprint_53
+        arch_sprint_54
+        arch_sprint_55
+        arch_sprint_56
+        arch_sprint_57
+        arch_sprint_58
+        arch_sprint_59
+        arch_sprint_60
+        arch_sprint_61
+        arch_sprint_62
+        arch_sprint_63
+        arch_sprint_64
+        arch_sprint_65
+        arch_sprint_66
+        arch_sprint_67
+        arch_sprint_68
+        arch_sprint_69
+        arch_sprint_70
+        arch_sprint_71
+        arch_sprint_72
+        arch_sprint_73
+        arch_sprint_74
+        arch_sprint_75
+        arch_sprint_76
+    }
+
+    subgraph cluster_adt_sprint {
+        style=invis
+        rankdir=LR
+        adt_sprint_73
+        adt_sprint_75
+    }
+
+    subgraph cluster_refmgmt_sprint {
+        style=invis
+        rankdir=LR
+        refmgmt_sprint_62
+        refmgmt_sprint_63
+        refmgmt_sprint_64
+        refmgmt_sprint_65
+        refmgmt_sprint_66
+        refmgmt_sprint_67
+        refmgmt_sprint_68
+        refmgmt_sprint_71
+        refmgmt_sprint_72
+        refmgmt_sprint_73
+    }
+
+    start [style=invis]
+    start -> tech_sprint_36 [xlabel="Tech" style=""]
+    tech_sprint_36 -> tech_sprint_37
+    tech_sprint_37 -> tech_sprint_38
+    tech_sprint_38 -> tech_sprint_39
+    tech_sprint_39 -> tech_sprint_40 [xlabel="Tech" style=""]
+    tech_sprint_39 -> analytics_sprint_38 [xlabel="Analytics" style=""]
+    {
+        rank=same
+        newrank=true /* allow rank=same within subgraphs */
+        tech_sprint_40
+        analytics_sprint_38
+    }
+    tech_sprint_40 -> tech_sprint_41
+    tech_sprint_41 -> tech_sprint_42
+    tech_sprint_42 -> tech_sprint_43
+    tech_sprint_43 -> tech_sprint_44
+    tech_sprint_44 -> tech_sprint_45
+    tech_sprint_45 -> tech_sprint_46
+    tech_sprint_46 -> tech_sprint_47 [xlabel="Tech"]
+    tech_sprint_47 -> arch_sprint_48 [xlabel="ARCH"]
+    tech_sprint_47 -> app_sprint_48 [xlabel="APP"]
+
+    app_sprint_48 -> app_sprint_49
+    app_sprint_49 -> app_sprint_50
+    app_sprint_50 -> app_sprint_51
+    app_sprint_51 -> app_sprint_52
+    app_sprint_52 -> app_sprint_53
+    app_sprint_53 -> app_sprint_54
+    app_sprint_54 -> app_sprint_55
+    app_sprint_55 -> app_sprint_56
+    app_sprint_56 -> app_sprint_57
+    app_sprint_57 -> app_sprint_58
+    app_sprint_58 -> app_sprint_59
+    app_sprint_59 -> app_sprint_60
+    app_sprint_60 -> app_sprint_61
+    app_sprint_61 -> app_sprint_62 [xlabel="APP"]
+    app_sprint_62 -> app_sprint_63
+    app_sprint_63 -> app_sprint_64
+    app_sprint_64 -> app_sprint_65
+    app_sprint_65 -> app_sprint_66
+    app_sprint_66 -> app_sprint_67
+    app_sprint_67 -> app_sprint_68
+    app_sprint_68 -> app_sprint_69
+    app_sprint_69 -> app_sprint_70 [xlabel="APP"]
+    app_sprint_70 -> app_sprint_71 [xlabel="APP"]
+    app_sprint_71 -> app_sprint_72
+    app_sprint_72 -> app_sprint_73
+    app_sprint_73 -> app_sprint_74
+    app_sprint_74 -> app_sprint_75
+    app_sprint_75 -> app_sprint_76
+
+    app_sprint_70 -> cm_sprint_71 [xlabel="CM"]
+    cm_sprint_71 -> cm_sprint_72
+    cm_sprint_72 -> cm_sprint_73
+    cm_sprint_73 -> cm_sprint_74
+    cm_sprint_74 -> app_sprint_75 // merge back in...
+
+    app_sprint_70 -> huddle_sprint_71 [xlabel="HUDDLE"]
+    huddle_sprint_71 -> huddle_sprint_72
+    huddle_sprint_72 -> huddle_sprint_73
+    huddle_sprint_73 -> huddle_sprint_74
+    huddle_sprint_74 -> app_sprint_75 // merge back in...
+
+    app_sprint_70 -> wrklst_sprint_71 [xlabel="WRKLST"]
+    wrklst_sprint_71 -> wrklst_sprint_72
+    wrklst_sprint_72 -> wrklst_sprint_73
+    wrklst_sprint_73 -> wrklst_sprint_74
+    wrklst_sprint_74 -> app_sprint_75 // merge back in
+
+    /* analytics_sprint_38 -> refmgmt_start [style=invis]  // force alignment
+     refmgmt_start -> refmgmt_sprint_62 [label="REFMGMT"]
+    */
+    app_sprint_55 -> refmgmt_sprint_62 [xlabel="REFMGMT" style=dotted]
+    refmgmt_sprint_62 -> refmgmt_sprint_63
+    refmgmt_sprint_63 -> refmgmt_sprint_64
+    refmgmt_sprint_64 -> refmgmt_sprint_65
+    refmgmt_sprint_65 -> refmgmt_sprint_66
+    refmgmt_sprint_66 -> refmgmt_sprint_67
+    refmgmt_sprint_67 -> refmgmt_sprint_68
+    refmgmt_sprint_68 -> refmgmt_sprint_71 [xlabel="REFMGMT" style=dotted]
+    refmgmt_sprint_71 -> refmgmt_sprint_72
+    refmgmt_sprint_72 -> refmgmt_sprint_73
+
+    arch_sprint_72 -> adt_sprint_73 [xlabel="ADT"]
+    adt_sprint_73 -> adt_sprint_75
+    adt_sprint_75 -> arch_sprint_76
+
+    arch_sprint_48 -> arch_sprint_49
+    arch_sprint_49 -> arch_sprint_50
+    arch_sprint_50 -> arch_sprint_51
+    arch_sprint_51 -> arch_sprint_52
+    arch_sprint_52 -> arch_sprint_53
+    arch_sprint_53 -> arch_sprint_54
+    arch_sprint_54 -> arch_sprint_55
+    arch_sprint_55 -> arch_sprint_56
+    arch_sprint_56 -> arch_sprint_57
+    arch_sprint_57 -> arch_sprint_58
+    arch_sprint_58 -> arch_sprint_59
+    arch_sprint_59 -> arch_sprint_60
+    arch_sprint_60 -> arch_sprint_61
+    arch_sprint_61 -> arch_sprint_62 [label="ARCH"]
+    arch_sprint_62 -> arch_sprint_63
+    arch_sprint_63 -> arch_sprint_64
+    arch_sprint_64 -> arch_sprint_65
+    arch_sprint_65 -> arch_sprint_66
+    arch_sprint_66 -> arch_sprint_67
+    arch_sprint_67 -> arch_sprint_68
+    arch_sprint_68 -> arch_sprint_69
+    arch_sprint_69 -> arch_sprint_70
+    arch_sprint_70 -> arch_sprint_71 [label="ARCH"]
+    arch_sprint_71 -> arch_sprint_72 [label="ARCH"]
+    arch_sprint_72 -> arch_sprint_73 [label="ARCH"]
+    arch_sprint_73 -> arch_sprint_74
+    arch_sprint_74 -> arch_sprint_75 [style=invis]
+    arch_sprint_75 -> arch_sprint_76 [style=invis]
+
+    arch_sprint_71 -> awv_sprint_72 [xlabel="AWV"]
+    awv_sprint_72 -> awv_sprint_73
+    awv_sprint_73 -> awv_sprint_74
+    awv_sprint_74 -> awv_sprint_75
+    awv_sprint_75 -> arch_sprint_76
+
+
+    subgraph cluster_awv_72 {
+        style=invis
+        rankdir=LR
+        awv_sprint_72
+        awv_sprint_73
+        awv_sprint_74
+        awv_sprint_75
+    }
+
+    arch_sprint_71 -> clmattr_sprint_72 [xlabel="CLMATTR"]
+    clmattr_sprint_72 -> clmattr_sprint_73
+    clmattr_sprint_73 -> clmattr_sprint_74
+    clmattr_sprint_74 -> clmattr_sprint_75
+    clmattr_sprint_75 -> clmattr_sprint_76
+
+    arch_sprint_71 -> dw_sprint_72 [xlabel="DW"]
+    dw_sprint_72 -> dw_sprint_73
+    dw_sprint_73 -> dw_sprint_74
+    dw_sprint_74 -> hcc_hsud_kanban
+
+    arch_sprint_72 -> eol_sprint_73 [xlabel="EOL"]
+    eol_sprint_73 -> arch_sprint_74 // merge back in...
+
+    arch_sprint_71 -> hcc_sprint_72 [xlabel="HCC"]
+    hcc_sprint_72 -> hcc_sprint_73
+    hcc_sprint_73 -> hcc_sprint_74
+    hcc_sprint_74 -> hcc_hs_kanban
+    hcc_sprint_74 -> hcc_hsud_kanban
+
+    arch_sprint_73 -> ptprac_sprint_74 [xlabel="PTPRAC"]
+    ptprac_sprint_74 -> ptprac_sprint_75
+    ptprac_sprint_75 -> ptprac_sprint_76
+
+    // handle timeline
+
+    q3_2016 [label="2016 Q3" shape=plaintext fontsize=14]
+    q4_2016 [label="2016 Q4" shape=plaintext fontsize=14]
+    q1_2017 [label="2017 Q1" shape=plaintext fontsize=14]
+    q2_2017 [label="2017 Q2" shape=plaintext fontsize=14]
+    q3_2017 [label="2017 Q3" shape=plaintext fontsize=14]
+    q4_2017 [label="2017 Q4" shape=plaintext fontsize=14]
+    q1_2018 [label="2018 Q1" shape=plaintext fontsize=14]
+
+    {
+        edge [style=invis]
+        q3_2016 -> q4_2016
+        q4_2016 -> q1_2017
+        q1_2017 -> q2_2017
+        q2_2017 -> q3_2017
+        q3_2017 -> q4_2017
+        q4_2017 -> q1_2018
+    }
+
+    { rank=same q3_2016 tech_sprint_38 }
+    { rank=same q4_2016 tech_sprint_43 }
+    { rank=same q1_2017 arch_sprint_48 }
+    { rank=same q2_2017 arch_sprint_54 }
+    { rank=same q3_2017 arch_sprint_60 }
+    { rank=same q4_2017 arch_sprint_64 }
+    { rank=same q1_2018 arch_sprint_72 }
+    { rank=same arch_sprint_61 refmgmt_start }
+    { rank=same arch_sprint_62 refmgmt_sprint_62 }
+    { rank=same arch_sprint_68 refmgmt_sprint_68 }
+    { rank=same arch_sprint_71 refmgmt_sprint_71 }
+
+    { rank=same awv_sprint_73 adt_sprint_73 }
+    { rank=same awv_sprint_75 adt_sprint_75 }
+
+    /* milestones */
+
+    APP_parttime_QA [label="APP gets part-time QA" shape=plaintext]
+    { rank=same APP_parttime_QA arch_sprint_48 }
+
+    CCLF_QA [label="ARCH CCLF gets QA" shape=plaintext]
+    { rank=same CCLF_QA arch_sprint_52 }
+
+    product_owns_qa [label="Product owns QA" shape=plaintext]
+    { rank=same product_owns_qa arch_sprint_56 }
+
+    vpoe_starts [label="VPoE starts" shape=plaintext]
+    { rank=same vpoe_starts arch_sprint_57 }
+
+    tech_debt_swerve [label="product slams on brakes\nengineering gives up on monolithic sprint demo\nw/ no stakeholders" shape=plaintext]
+    { rank=same tech_debt_swerve app_sprint_69 }
+
+    tech_debt_sprint_70 [label="tech debt sprint\nper-team sprint demos go well" shape=plaintext]
+    { rank=same tech_debt_sprint_70 app_sprint_70 }
+
+    holidays_sprint_71 [label="holidays\nper-project sprint demo" shape=plaintext]
+    { rank=same holidays_sprint_71 app_sprint_71 }
+
+    kanban_pull_system_75 [label="kanban/pull system\nstarting..." shape=plaintext]
+    { rank=same kanban_pull_system_75 app_sprint_75 }
+
+    kanban_pull_system_76 [label="kanban/pull system\nin full effect" shape=plaintext]
+    { rank=same kanban_pull_system_76 app_sprint_76 }
+
+    /*
+    // doesn't display correctly
+    product_consultant_sprint_73 [label="product hires consultant\nto help with roadmap" shape=plaintext]
+    { rank=same app_sprint_73 }
+    */
+
+}

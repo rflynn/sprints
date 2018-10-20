@@ -1,0 +1,109 @@
+
+
+
+1. admit that you have a problem
+
+
+2. ensure that all stories in the sprint are actually completable by the team
+
+    it turned out about half the stories in the sprint belonged to another team which didn't really practice scrum -- their huge and ill-defined stories sat uncompleted for months.
+    a little digging revealed that when the company was smaller the planning meetings for both teams had been consolidated and as a result the sprint was shared.
+    the result was that a large portion of the stories in each sprint were not assigned to, and thus not completable, by engineering.
+    not only did this situation make it patently impossible to ever burn down even in the best case, it made analysis of our team's situation difficult due to the amount of noise.
+    the solution was to split the other team's stories into a separate sprint.
+
+
+
+    the next problem was that even though smart engineers were working hard, the line wasn't going down.
+    it turned out that a lot of unpointed work was being accepted, hiding the true scope of work and also resulting in priority inversion where stories thrown into the sprint were sometimes being worked on while higher priority planned work went undone.
+    because a story could be whipped up and "thrown on the pile" with little concern there was no incentive to carefully prioritize.
+    no matter how hard engineering worked the workload never shrank.
+    
+
+
+3. all planned stories in the sprint must be point-estimated
+
+    the next step was to account for how much work was actually being done.
+    this was implemented in the form of assigning point estimates to every planned story in the sprint.
+    once we started trying to provide reasonable estimates for each story, we realized that many stories were not clearly defined -- some of them were only vague titles and nothing else.
+
+3a. in order for a story to be estimable, it must have clearly-defined acceptance criteria
+
+    at first we tried casually informing others to provide better descriptions (that didn't work), then we tried point-estimating vaguely-defined stories ourselves so at least they weren't zero (not a good idea).
+    what worked was politely but firmly refusing to work on inestimatable stories in the form of socializing this expectation to the sources of our stories, gently reminding people who forgot and eventually transitioning to refusing to accept stories for which a reasonable estimate could not be made.
+    this gradual and polite-but-firm approach worked.
+
+
+
+
+
+4. the sprint should not be started until all planning has been completed
+
+
+5. have one person actively work on helping engineers get stories "Done"
+
+    every day, review "In Review" stories and ask engineers what needs to be done next and what help they need to do that
+    every day, review "In Progress" stories and ask engineers what help they need
+    work on removing blockers
+        get people talking! (~90%)
+        meet briefly with team leaders halfway through the sprint, review stories that have been stuck in one column for more than a few days and ask what can be done to help
+        ask lots of questions, let others do most of the talking
+        make notes of things that come up more than once for sprint retrospective
+
+
+6. engineering team leads should try to commit to fewer engineering points to give them the time to collaborate w/ others
+
+    ...
+
+7. the amount of work committed to must be proportional to the team's established velocity
+
+    the result of 
+
+
+8. it should always be clear what a story's next step is and who is needed to do it
+
+    the next issue was that stories often became stuck during handoffs
+    specifically, we had "Review" and "Done" columns, and engineers, PMs and QA were often confused about what state a given story was in, whose attention was needed, and when exactly a story transitioned from one state to the next
+
+
+9. once burndown has been achieved and a predictable velocity established...
+
+    1. plan earlier to increase time in the sprint
+        ...
+    2. more carefully plan 
+        ...
+    3. increase velocity by removing impediments
+        ...
+    4. more accurately account for engineering time
+        in particular debbie and jeff workshould have time assigned to "db support" or something,
+        and dcain as well...?
+        "maintenance"
+        "tech support"
+    5. improve coordination of sprint review demos
+        talk amongst your team at your daily meeting
+        lead with 
+
+
+10. once a cadence has been established, there are two basic things you can do:
+
+    1. "maximize value" improve planning's ability to fit high-value deliverables within a single sprint
+    2. increase velocity by removing impediments so your team can confidently commit to and deliver more work per sprint
+
+    once you have established a system with a given predictable capacity, figure out how to fit the highest-value deliverable within that capacity.
+    for example, instead of splitting the team finely across 10 features and not delivering any of them, work on 3 or 4 and deliver all of them by the end of the sprint.
+    this is harder to do than it sounds due to the difficulty of finding the right seams to divide work, but the benefits are worth it.
+    not only does this produce real, tangible business value sooner, and more regularly than the alternative, it has several more subtle benefits:
+        1. lower time to delivery means that a given feature can be deployed sooner, and feedback and improvements can be gathered and incorporated into products faster, resulting in faster
+        2. increased focus on fewer deliverables results in more emphasis on careful prioritization by product, and fewer context switches for everyone involved: PMs, engineers, QA, etc.
+        3. fewer things being worked on means larger overall teams, which -- if managed well -- means more capacity for engineers to share / collaborate / switch / pick up work, and also foster communication and amplify learning.
+
+    it's worth mentioning downsides and tradeoffs, because there are some.
+
+        1. fewer eggs in one basket means that failure has a higher cost. given a moderately predictable sprint performance one may be tempted to end up with a high-level implementation of waterfall; failure to deliver on one sprint may cause cascading failure.
+
+
+Other lessons:
+
+1. *reducing* point load on certain veteran engineers may result in *higher* velocity due to them being available to float and collaborate with others, resulting in *other* stories being completed that otherwise would not be.  it depends on the environment and the engineer though.
+2. 
+
